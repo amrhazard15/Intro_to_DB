@@ -4,7 +4,7 @@ from mysql.connector import Error
 try:
     
     connection = mysql.connector.connect(
-        host='localhost',
+        host='3306',
         user='root',           
         password='Basmalty_15605' 
     )
@@ -22,3 +22,4 @@ finally:
         cursor.close()
         connection.close()
         print("MySQL connection is closed")
+

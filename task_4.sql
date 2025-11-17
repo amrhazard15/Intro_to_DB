@@ -1,5 +1,4 @@
 USE alx_book_store;
--- Print full description of the table 'books' without using DESCRIBE or EXPLAIN
 SELECT COLUMN_NAME AS 'Column', 
        COLUMN_TYPE AS 'Type', 
        IS_NULLABLE AS 'Null', 
